@@ -2,12 +2,13 @@
 
 using namespace std;
 //这是一段注释
-void Sayhello()
+void sayHello()
 {
 	std::cout<<"hello,git"<<std::endl;
 }
 
-void Saybye()
+
+void sayBye()
 {
 	std::cout<<"bye,git"<<std::endl;
 }
@@ -15,5 +16,8 @@ void Saybye()
 
 int main(){
   cout<<"hello,Git"<<endl;
+  sayHello();
+  system("pause");
+
   return 0;
 }
