@@ -1,6 +1,12 @@
 include<iostream>
 
 using namespace std;
+
+void Sayhello()
+{
+	std::cout<<"hello,git"<<std::endl;
+}
+
 int main(){
   cout<<"hello,Git"<<endl;
   return 0;
