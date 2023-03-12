@@ -8,7 +8,7 @@ void sayHello()
 }
 
 
-void Saybye()
+void sayBye()
 {
 	std::cout<<"bye,git"<<std::endl;
 }
@@ -16,7 +16,7 @@ void Saybye()
 
 int main(){
   cout<<"hello,Git"<<endl;
-  sayhello();
+  sayHello();
   system("pause");
 
   return 0;
