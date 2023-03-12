@@ -16,6 +16,7 @@ void sayBye()
 
 int main(){
   cout<<"hello,Git"<<endl;
+  cout<<"123"<<endl;
   sayHello();
   sayBye();
   system("pause");
