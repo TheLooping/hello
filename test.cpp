@@ -1,7 +1,8 @@
-include<iostream>
+#include <iostream>
+#include <cstdlib>
 
 using namespace std;
-//这是一段注释
+
 void Sayhello()
 {
 	std::cout<<"hello,git"<<std::endl;
@@ -9,5 +10,7 @@ void Sayhello()
 
 int main(){
   cout<<"hello,Git"<<endl;
+  Sayhello();
+  system("pause");
   return 0;
 }
