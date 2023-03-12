@@ -1,7 +1,7 @@
 include<iostream>
 
 using namespace std;
-
+//这是一段注释
 void Sayhello()
 {
 	std::cout<<"hello,git"<<std::endl;
