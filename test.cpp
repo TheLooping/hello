@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include <cstdlib>
 using namespace std;
 //这是一段注释
 void sayHello()
@@ -17,6 +17,7 @@ void sayBye()
 int main(){
   cout<<"hello,Git"<<endl;
   sayHello();
+  sayBye();
   system("pause");
 
   return 0;
